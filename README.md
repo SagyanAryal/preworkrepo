@@ -37,11 +37,15 @@ The following **additional** features are implemented:
 I added a timer where the player has to complete the game within the given time otherwise they lose.
 
 - [ ] List anything else that you can get done to improve the app!
+The converting to GIF and posting the video part was unclear and I was not sure how to do it, so I just attached the imgur links. 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 ![](your-link-here)
+https://i.imgur.com/fPq2c1g.gif
+https://i.imgur.com/bOAJJo5.gif
+
 
 
 ## Reflection Questions
