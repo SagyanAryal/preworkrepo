@@ -11,7 +11,17 @@ var tonePlaying = false;
 var volume = 0.5;
 var guessCounter = 0;
 var timeLeft;
-var time = setInterval(function() {
+var time;
+
+function startGame() {
+  //initialize game variables
+
+  pattern = Array.from({ length: 5 }, () => Math.floor(Math.random() * 6) + 1);
+  progress = 0;
+  timeLeft = 45;
+  gamePlaying = true;
+  
+  time = setInterval(function() {
     if (timeLeft <= 0) {
       clearInterval(time);
     } else {
@@ -24,13 +34,6 @@ var time = setInterval(function() {
     }
   }, 1000);
 
-function startGame() {
-  //initialize game variables
-
-  pattern = Array.from({ length: 5 }, () => Math.floor(Math.random() * 6) + 1);
-  progress = 0;
-  timeLeft = 45;
-  gamePlaying = true;
   
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.add("hidden");
@@ -42,6 +45,7 @@ function startGame() {
 }
 
 function stopGame() {
+  clearInterval(time);
   gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");

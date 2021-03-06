@@ -38,14 +38,13 @@ I added a timer where the player has to complete the game within the given time 
 
 - [ ] List anything else that you can get done to improve the app!
 The converting to GIF and posting the video part was unclear and I was not sure how to do it, so I just attached the imgur links. 
+
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
-Sorry for the inconvenience, but I couldn't figure out how to embed the gifs so I just have the links.
-https://i.imgur.com/fPq2c1g.gif
-https://i.imgur.com/bOAJJo5.gif
-
+![](https://i.imgur.com/rBDyjM1.gif)
+![](https://i.imgur.com/BEqyoNF.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
