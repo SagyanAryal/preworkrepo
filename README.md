@@ -42,9 +42,8 @@ The converting to GIF and posting the video part was unclear and I was not sure 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
-https://i.imgur.com/fPq2c1g.gif
-https://i.imgur.com/bOAJJo5.gif
+![](https://i.imgur.com/rBDyjM1.gif)
+![](https://i.imgur.com/BEqyoNF.gif)
 
 
 
