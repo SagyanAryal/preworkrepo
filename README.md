@@ -2,11 +2,11 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: Sagyan Aryal
 
-Time spent: **#** hours spent in total
+Time spent: 5 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/immediate-scandalous-column?path=README.md%3A47%3A0
 
 ## Required Functionality
 
@@ -39,13 +39,12 @@ I added a timer where the player has to complete the game within the given time 
 - [ ] List anything else that you can get done to improve the app!
 The converting to GIF and posting the video part was unclear and I was not sure how to do it, so I just attached the imgur links. 
 
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 ![](https://i.imgur.com/rBDyjM1.gif)
 ![](https://i.imgur.com/BEqyoNF.gif)
-
-
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
