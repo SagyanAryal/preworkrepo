@@ -28,7 +28,6 @@ function startGame() {
   //initialize game variables
 
   pattern = Array.from({ length: 5 }, () => Math.floor(Math.random() * 6) + 1);
-    console.log(pattern.toString());
   progress = 0;
   timeLeft = 45;
   gamePlaying = true;
