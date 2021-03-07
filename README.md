@@ -43,7 +43,9 @@ Right now the website looks pretty plain, and so I think a fun improvement would
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![](https://i.imgur.com/rBDyjM1.gif)
+
 ![](https://i.imgur.com/BEqyoNF.gif)
 
 ## Reflection Questions
