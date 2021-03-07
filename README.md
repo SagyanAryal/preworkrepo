@@ -36,7 +36,8 @@ The following **additional** features are implemented:
 
 I added a timer where the player has to complete the game within the given time otherwise they lose.
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] List anything else that you can get done to improve the app!
+Right now the website looks pretty plain, and so I think a fun improvement would be to make it look more visually appealing. There is a physical version of the game, and if I had more time I would have made the display of the buttons look like that.
 
 
 ## Video Walkthrough
