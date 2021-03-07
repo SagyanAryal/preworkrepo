@@ -37,7 +37,6 @@ The following **additional** features are implemented:
 I added a timer where the player has to complete the game within the given time otherwise they lose.
 
 - [ ] List anything else that you can get done to improve the app!
-The converting to GIF and posting the video part was unclear and I was not sure how to do it, so I just attached the imgur links. 
 
 
 ## Video Walkthrough
@@ -48,7 +47,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
 https://www.w3schools.com/jsref/met_win_setinterval.asp for the timer
 https://www.w3schools.com/css/css3_borders.asp for rounding the shapes
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
@@ -72,7 +71,6 @@ vertically when minimized. I am curious to learn about how to make it so that th
 Although the site I made here was fairly basic, I am also curious on the thought process of professional websites and how they display and design their layouts to make it appealing and user-friendly as possible. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
 
 If I had more time to work on this project I would implement a level feature. The game would start off fairly easy where you would only have to memorize a short pattern, but as you kept guessing the patterns
 correctly, the level of difficulty would go up. The difficulty itself would be determined by the countdown timer and the time in-between each pattern, and the length of the pattern itself. This would be a fun feature
