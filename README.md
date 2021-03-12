@@ -54,6 +54,7 @@ Here's a walkthrough of implemented user stories:
 
 https://www.w3schools.com/jsref/met_win_setinterval.asp for the timer
 https://www.w3schools.com/css/css3_borders.asp for rounding the shapes
+
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
 The hardest part of developing this game was definitely getting the countdown timer to work. The first challenge I faced when creating it was trying
