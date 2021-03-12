@@ -37,7 +37,8 @@ The following **additional** features are implemented:
 I added a timer where the player has to complete the game within the given time otherwise they lose.
 
 - [X] List anything else that you can get done to improve the app!
-Right now the website looks pretty plain, and so I think a fun improvement would be to make it look more visually appealing. There is a physical version of the game, and if I had more time I would have made the display of the buttons look like that.
+
+Right now the website looks pretty plain, and so I think a fun improvement would be to make it look more visually appealing. There is a physical version of the game, and if I had more time I would have made the display of the buttons look like it.
 
 
 ## Video Walkthrough
@@ -56,28 +57,24 @@ https://www.w3schools.com/css/css3_borders.asp for rounding the shapes
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
 The hardest part of developing this game was definitely getting the countdown timer to work. The first challenge I faced when creating it was trying
-to figure out how to make the HTML file interact with the code from the JavaScript file. Since I had to display it counting down, the webpage would
-have to have an interactive label that would display the countdown. After a quick search on the internet I realized it was possible to access and change
+to figure out how to make the HTML file interact with the code from the JavaScript file. Since I had to display the countdown, the webpage would
+have to have an interactive label that would display it. After a quick search on the internet I realized it was possible to access and change
 the HTML using the ".innerHTML" property. After that, the next step was to write the actual countdown timer code. I was unsure how JS handled time, but
-again after a quick search I realized I could use setInterval() which would continually call my time function until I needed it stop by then 
-calling clearInterval(). At that point I had everything I needed so I wrote my timer code which was fairly straightforward, until it wasn't. I noticed
-that everytime I would restart the game, the timer would go down faster than it was suppose to. I realized that when using setInterval it would continue to 
-call my function regardless of if I clicked the stop button or not. After messing around with it for awhile, I was able to resolve this issue by making my
-time variable global so that I could use clearInterval() in the stop method, because previously the timer would continue to go down in the backend without being stopped
-or reset. All in all, there was a lot of troubleshooting and debugging that went into this timer, but now that I finished I am glad I got to learn a lot about the interaction between JS and web development.
+again after another quick search I realized I could use setInterval() which would continually call my time function until I needed it stop by then 
+calling clearInterval(). 
+
+At that point I had everything I needed, so I wrote my timer code which was fairly straightforward, until I realized it wasn't. I noticed
+that everytime I would restart the game, the timer would go down faster than it was supposed to. After troubleshooting my conclusion was that the setInterval would continue to call my function regardless of whether I clicked the stop button or not. After messing around with it for awhile, I was able to resolve this issue by making the time variable global so that I could use clearInterval() in the stop method, because previously the timer would continue to go down in the backend without being stopped. All in all, there was a lot of troubleshooting and debugging that went into the timer, but now that I finished I am glad I got to learn a lot about the interaction between JS and HTML.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-I noticed that if you make the web browser for the game smaller that all of the contents within that page also refactors. Specifically, the shapes go from being horizontally laid out when full-sreened to 
-vertically when minimized. I am curious to learn about how to make it so that the web page becomes more responsive by making the tiles smaller but keeping the horizontal layout. 
+I noticed that if you make the web browser for the game smaller that all of the contents within that page also refactors. Specifically, the shapes go from being horizontally laid out when full-sreened to vertically when minimized. I am curious to learn about how to make it so that the web page becomes more responsive by making the tiles smaller while keeping the horizontal layout. 
 
-Although the site I made here was fairly basic, I am also curious on the thought process of professional websites and how they display and design their layouts to make it appealing and user-friendly as possible. 
+Although the site I made here was fairly basic, I am also curious on the thought process of professional website creators and how they design and display their layouts to make it appealing and user-friendly as possible. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-If I had more time to work on this project I would implement a level feature. The game would start off fairly easy where you would only have to memorize a short pattern, but as you kept guessing the patterns
-correctly, the level of difficulty would go up. The difficulty itself would be determined by the countdown timer and the time in-between each pattern, and the length of the pattern itself. This would be a fun feature
-to implement because it would combine every other aspect of the game into one. 
+If I had more time to work on this project I would implement a level feature. The game would start off fairly easy where you would only have to memorize a short pattern, but as you kept guessing the patterns correctly, the level of difficulty would go up. The difficulty itself would be determined by the countdown timer and the time in-between each pattern, and the length of the pattern itself. This would be a fun feature to implement because it would combine every other aspect of the game into one. As mentioned in one of the earlier questions, I would also work on trying to create a better looking and more responsive website. 
 
 
 ## License
